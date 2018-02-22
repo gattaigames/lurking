@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- example file containing base tags -->
+
+<game>	
+	<title>RunnerAway Games (Digipen)</title>
+	<founding-date>September 1, 2013</founding-date>
+	<website>http://www.lurking-game.com/</website>
+	<based-in>Singapore</based-in>
+	
+	<press-contact>press@lurking-game.com</press-contact>
+	<phone>+65 91727592</phone>
+	<address>
+		<line></line>
+		<line></line>
+		<line></line>
+	</address>
+
+	<socials>
+		<social>
+			<name>Facebook</name>
+			<link>facebook.com/lurkinggame</link>
+		</social>
+		<social>
+			<name>Tumblr</name>
+			<link>lurking-game.tumblr.com/</link>
+		</social>
+	</socials>
+
+	<description>	
+		We are a team of 4 from Digipen Institute of Technology Singapore, and Lurking is our Senior Project.
+	</description>
+		
+	<histories>
+		<history>
+			<header>The Idea</header>
+			<text>The idea for Lurking spawned from the core concept of using a microphone in a meaningful way for gameplay. We had many ideas, from rhythm to exploratory-puzzle games but the survival thriller concept that became Lurking stood out the most. We came up with the tag line "Sound is the only way you see, and they hear your fears." and the rest was history.
+			</text>
+		</history>
+	
+		<history>
+			<header>The Journey</header>
+			<text>
+				The whole project took us 2 semesters(6 months) to build using the Unity3D engine. The first three months were spent on heavy iteration where we nailed down the core gameplay rules and mechanics. Once we felt comfortable with the core gameplay, we spent the following semester churning out content and gameplay events which resulted in roughly 30 to 60mins of gameplay. Thanks to a schoolmate, we were able to build an OculusVR Rift headset ready game which created an additional layer of immersion.
+			</text>
+		</history>
+		<history>
+			<header>After Release</header>
+			<text>
+				The game has since been featured on Unity's Facebook Page and Newsletter(May). This got us some fans, who have since posted videos of themselves playing the game.
+			</text>
+		</history>		
+		
+		<history>
+			<header>After Digipen</header>
+			<text> The team behind Lurking has since graduated and moved on into their professional careers and other projects. Justin and Bryan are chasing the indie dream, while Dexter and Zhong Min are looking for jobs. We are however really keen on making Lurking a full game, so if you are a publisher, an investor or someone that can help and are interested please don't hesitate to contact either one of us!
+			</text>
+		</history>
+	</histories>
+		
+	<trailers>
+		<trailer>
+			<name>Game Trailer</name>
+			<youtube>u8830S_Pa-k</youtube>
+		</trailer>
+		<trailer>
+			<name>Oculus Demo</name>
+			<youtube>H5etj1FV3vw</youtube>
+		</trailer>
+	</trailers>
+	
+	<press-can-request-copy>TRUE</press-can-request-copy> <!-- can be true or false -->
+	<monetization-permission>non-commercial</monetization-permission> <!-- can be: 	false (no video allowed),
+																			 	ask (permission on case-per-case basis),
+																			 	non-commercial (no monetization allowed),
+																			 	monetize (full permission) -->	
+	<additionals>
+		<additional>
+			<title>Digipen Singapore</title>
+			<description>The place where we made this</description>
+			<link>https://singapore.digipen.edu/</link>
+		</additional>
+	</additionals>
+	
+	<credits>
+		<credit>
+			<person>Justin Ng Guo Xiong</person>
+			<website>http://www.justafolio.com/</website>
+			<role>Producer, Art Director, Game Designer</role>
+		</credit>
+		<credit>
+			<person>Dexter Chng Shi Rong</person>
+			<website>http://www.shirongchng.wix.com/dexterchng/</website>
+			<role>Lead Game Designer, Level Designer</role>
+		</credit>
+		<credit>
+			<person>Soo Zhong Min</person>
+			<website>http://www.ity.per.sg/</website>
+			<role>Tech Director</role>
+		</credit>
+		<credit>
+			<person>Bryan Teo An Pong</person>
+			<website>http://www.bryan-teo.com/</website>
+			<role>Programmer, Audio Director</role>
+		</credit>		
+	</credits>
+	
+	<contacts>
+		<contact>
+			<name>Inquiries</name>
+			<mail>justafolio@gmail.com</mail>
+		</contact>
+		<contact>
+			<name>Facebook</name>
+			<link>http://facebook.com/lurkinggame</link>
+		</contact>
+		<contact>
+			<name>Web</name>
+			<link>lurking-game.com</link>
+		</contact>
+	</contacts>
+</game>
