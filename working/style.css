@@ -1,0 +1,560 @@
+#preloadBG{background-image: url(images/background.png)}
+#preload{background-image: url(images/social/social_facebook_hover.png)}
+#preload0{background-image: url(images/social/social_tumblr_hover.png)}
+#preload8{background-image: url(images/social/social_pk_hover.png)}
+#preload1{background-image: url(images/social/social_linkedin_hover.png)}
+#preload2{background-image: url(images/social/social_twitter_hover.png)}
+#preload3{background-image: url(images/social/social_webbie_hover.png)}
+#preload4{background-image: url(images/social/social_email_hover.png)}
+#preload5{background-image: url(images/download/winHover.png)}
+#preload6{background-image: url(images/download/appleHover.png)}
+#preload7{background-image: url(images/download/oculusHover.png)}
+
+@font-face
+{
+    font-family: trueLies;
+    src: local(trueLies), url('font/trueLies.eot') format('opentype');
+}
+
+@font-face
+{
+    font-family: trueLies;
+    src: local(trueLies), url('font/trueLies.ttf') format('opentype');
+}
+
+
+@font-face
+{
+    font-family: nexa;
+    src: local(nexa), url('font/nexaBold.eot') format('opentype');
+}
+
+@font-face
+{
+    font-family: nexa;
+    src: local(nexa), url('font/nexaBold.ttf') format('opentype');
+}
+
+@font-face
+{
+    font-family: nexaLight;
+    src: local(nexaLight), url('font/nexaLight.eot') format('opentype');
+}
+
+@font-face
+{
+    font-family: nexaLight;
+    src: local(nexaLight), url('font/nexaLight.ttf') format('opentype');
+}
+
+#background
+{
+	position: relative;
+	background: #0c0b0b;
+	background-image: url(images/background.png);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	width: 100%;
+	height: 100%;
+	margin: auto;
+}
+
+#announcement
+{
+	width:100%;
+	height:100%;
+	text-align:center;
+	margin:auto;
+	margin-bottom:15px;
+	padding:8px;
+	color:white!important;
+	font-size:30px;
+	font-family:nexaLight,Helvetica,Arial,sans-serif;
+}
+
+#announcement a
+{
+	color:#CB2026!important;
+}
+
+#announcement a:hover
+{
+
+#awards
+{
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	margin: auto;
+	margin-bottom: 10px;
+}
+
+#awards a
+{
+	color: black;
+}
+
+#wrapper
+{
+	background: transparent;
+	width: 935px;
+	height: 100%;
+	margin: auto;
+}
+
+#logo
+{
+	background: transparent;
+	width: 512px;
+	height: 100%;
+	margin: auto;
+	margin-top: 0px;
+	margin-bottom: -30px;
+}
+
+#video
+{
+	background: transparent;
+	border-width: 5px;	
+	width: 911px;
+	height: 540px;
+	margin: auto;
+	margin-bottom: 0px;
+	padding: 12px;
+	float: left
+}
+
+.clearBlock
+{
+	float: right;
+	width: 1005px;
+}
+
+.socialLabel
+{
+	position: fixed;
+	width: 184px;	
+	top: 0px;
+	right: 20px;
+	float: right;
+}
+
+.facebookLikeButton
+{
+	padding-bottom: 5px;
+}
+
+
+#facebook
+{
+	background: url(images/social/social_facebook.png) center center no-repeat;
+	height: 48px;
+	width: 48px;
+	margin: 30px -35px -120px -20px;
+	float: right;
+	/*margin: -150px 15px 0 0;*/
+	
+}
+
+#facebook:hover
+{
+	background: url(images/social/social_facebook_hover.png) center center no-repeat;
+	margin: 30px -37px -120px -20px;
+}
+
+#tumblr
+{
+	background: url(images/social/social_tumblr.png) center center no-repeat;
+	height: 48px;
+	width: 48px;
+	float: right;
+	margin: 85px -35px -180px -20px;			
+}
+
+#tumblr:hover
+{
+	background: url(images/social/social_tumblr_hover.png) center center no-repeat;
+	margin: 85px -37px -180px -20px;	
+}
+
+#presskit
+{
+	background: url(images/social/social_pk.png) center center no-repeat;
+	height: 48px;
+	width: 48px;
+	float: right;
+	margin: 140px -35px -240px -20px;	
+}
+
+#presskit:hover
+{
+	background: url(images/social/social_pk_hover.png) center center no-repeat;
+	margin: 140px -37px -240px -20px;	
+}
+
+.regHeader
+{
+	color: white;
+	font-family: trueLies,"Arial Black", Gadget, sans-serif;
+    font-size:34px;
+    margin: 0.6em 0 0.25em 10px;
+}
+
+.regContent
+{
+	background: white;
+	color: black;
+	font-family: nexaLight, Helvetica, Arial, sans-serif;
+	line-height: 1.34em;
+    font-size:0.9em;
+    padding: 14px;
+}
+
+.regContent2
+{
+	background: transparent;
+	color: black;
+	font-family: nexaLight, Helvetica, Arial, sans-serif;
+	line-height: 1.29em;
+    font-size:0.9em;
+    padding: 14px;
+}
+
+.pressContent
+{
+	background: white;
+	color: black;
+	font-family: nexaLight, Helvetica, Arial, sans-serif;
+	font-style: italic;
+	line-height: 1.3em;
+    font-size:1.1em;
+    padding: 14px;
+}
+
+.pressRight
+{
+	text-align: right;
+	background: white;
+}
+
+
+b
+{
+	color: #CB2026;
+}
+
+.genericBlock
+{
+	/*background-image: url(images/opacity.png);
+	background-repeat: repeat;*/
+	width: 935px;
+	background: transparent;
+	height: 100%;
+	margin: auto;
+	margin-bottom: 20px;
+	float: left;
+}
+
+.genericBlockCen
+{
+	width: 905px;
+	background: transparent;
+	margin: auto;
+	margin: 0 0 0 14px;
+	float: left;
+}
+
+.genericBlockLeft
+{
+	/*background-image: url(images/opacity.png);
+	background-repeat: repeat;*/
+	width: 430px;
+	background: transparent;
+	margin: auto;
+	margin: 0 0 0 14px;
+	float: left;
+}
+
+.genericBlockRight
+{
+	/*background-image: url(images/opacity.png);
+	background-repeat: repeat;*/
+	width: 460px;
+	background: transparent;
+	margin: auto;
+	margin: 0 14px 0 0;
+	float: right;
+}
+
+.dlWrapper
+{
+	background: transparent;
+	width: 905px;
+	height: 100%;
+	color: #f0f0f0;
+    padding: 0 15px 12px 15px;
+    float: left;
+}
+
+.dlWrapperShort
+{
+	background: white;
+	width: 405px;
+	height: 64px;
+	color: #f0f0f0;
+    margin: auto;
+    padding: 13px;
+    float: left;
+}
+
+.dlWin
+{
+	background: url(images/download/win.png) no-repeat;
+	float: left;
+	height: 64px;
+	width: 64px;
+	margin: 1px 10px 0 0;
+}
+
+.dlWin:hover
+{
+	background: url(images/download/winHover.png) no-repeat;
+	margin: 0px 10px 0 0;
+}
+
+.dlApple
+{
+	background: url(images/download/apple.png) no-repeat;
+	float: left;
+	height: 64px;
+	width: 64px;
+	margin: 1px 10px 0 0;
+}
+
+.dlApple:hover
+{
+	background: url(images/download/appleHover.png) no-repeat;
+	margin: 0px 10px 0 0;
+}
+
+.dlOculus
+{
+	background: url(images/download/oculus.png) no-repeat;
+	float: left;
+	height: 64px;
+	width: 64px;
+	margin: 1px 0 0 0;
+}
+
+.dlOculus:hover
+{
+	background: url(images/download/oculusHover.png) no-repeat;
+	margin: 0px 10px 0 0;	
+}
+
+
+
+.dlBut
+{
+	-moz-box-shadow:inset 0px 1px 0px 0px #CB2026;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #CB2026;
+	box-shadow:inset 0px 1px 0px 0px #CB2026;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #DD1220), color-stop(1, #CB2026) );
+	background:-moz-linear-gradient( center top, #DD1220 5%, #CB2026 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#DD1220', endColorstr='#CB2026');
+	background-color:#DD1220;
+	text-indent:0px;
+	border:1px solid #DD1220;
+	display:inline-block;
+	color:#ffffff;
+	font-family:trueLies,"Arial Black", Gadget, sans-serif;
+	font-size:32px;
+	font-weight:bold;
+	font-style:normal;
+	height:60px;
+	line-height:60px;
+	width:100.2%;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:2px 3px 0px #b31d22;
+	margin: 0 0 0 -2px;
+	float: left;
+}
+
+.dlBut:hover
+{
+	color:#ffebeb;
+}
+
+
+.dlBut:active
+{
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #8cb82b), color-stop(1, #9dce2c) );
+	background:-moz-linear-gradient( center top, #8cb82b 5%, #9dce2c 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#8cb82b', endColorstr='#9dce2c');
+	background-color:#8cb82b;	
+	position:relative;
+	top:1px;
+}
+
+#fooWrapper
+{
+	margin: -15px 0 0 0;
+}
+
+
+.member
+{
+	background: white;
+	height: 64px;
+	padding: 13px;
+	font-family: nexa, Helvetica, Arial, sans-serif;
+	color:#d2d2d2;
+	margin: 0 0 0.95em 0;
+}
+
+
+.textRight
+{
+	background: transparent;
+	float: left;
+	width: 350px;
+	height: 64px;
+	margin: -2px 0 0 5px;
+}
+
+.email
+{
+	background: url(images/social/social_email.png) no-repeat;
+	float: left;
+	height: 30px;
+	width: 30px;
+	margin: 0 5px 0 0;
+}
+
+.email:hover
+{
+	background: url(images/social/social_email_hover.png) no-repeat;
+	margin: -1px 5px 0 0;
+}
+
+.imgLeft
+{
+	height: 90px;
+	width: 90px;
+	float: left;
+	margin: -13px 0 0 -13px;
+}
+
+.socialBar
+{
+	background: transparent;
+	height: 34px;
+	margin: 5px 0 0 0;
+}
+
+.social
+{
+	background: transparent;
+	float: right;
+	height: 34px;
+	width: 34px;
+	margin: 0 0 0 10px;
+}
+
+h1
+{
+	font-family: nexa,"Arial Black", Gadget, sans-serif;
+	font-size: 1.45em;
+	margin: 0 0 0 0;
+	color: black;
+}
+
+h2
+{
+	font-family: nexaLight,"Arial", Gadget, sans-serif;
+	font-size: 0.8em;
+	margin: 0px 0 0 0;
+	color: #CB2026;
+}
+
+.linkedin
+{
+	background: url(images/social/social_linkedin.png) no-repeat;
+	float: left;
+	height: 30px;
+	width: 30px;
+	margin: 0 5px 0 0;
+}
+
+.linkedin:hover
+{
+	background: url(images/social/social_linkedin_hover.png) no-repeat;
+	margin: -1px 5px 0 0;
+}
+
+.twitter
+{
+	background: url(images/social/social_twitter.png) no-repeat;
+	float: left;
+	height: 30px;
+	width: 30px;
+	margin: 0 5px 0 0;
+}
+
+.twitter:hover
+{
+	background: url(images/social/social_twitter_hover.png) no-repeat;
+	margin: -1px 5px 0 0;
+}
+
+.webbie
+{
+	background: url(images/social/social_webbie.png) no-repeat;
+	float: left;
+	height: 30px;
+	width: 30px;
+	margin: 0 5px 0 0;
+}
+
+.webbie:hover
+{
+	background: url(images/social/social_webbie_hover.png) no-repeat;
+	margin: -1px 5px 0 0;
+}
+
+#footer
+{
+	background: white;
+	width: 895px;
+	height: 20px;
+	font-family: nexa,Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	line-height: 23px;
+	text-align: center;
+	color: black;
+	padding: 5px;
+	float: left;
+	margin: 0 0 0 15px;
+}
+
+.copyright
+{
+	font-family: nexa,"Arial Black", Gadget, sans-serif;
+	font-size: 20	px;
+	margin: 0 0 0 0;
+	color: black;
+}
+
+.over
+{
+	color: #CB2026;
+	text-decoration: underline;
+}
+
+.over:hover
+{
+	color: #DC1F26;
+	text-decoration: underline;
+	margin-bottom: 1;
+}
